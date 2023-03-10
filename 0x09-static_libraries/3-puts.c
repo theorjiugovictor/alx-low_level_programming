@@ -7,12 +7,12 @@
  */
 void _puts(char *str)
 {
-    while (*str)
-    {
-        putchar(*str);
-        str++;
-    }
-    putchar('\n');
+	while (*str)
+	{
+	putchar(*str);
+	str++;
+	}
+	putchar('\n');
 }
 
 /**
@@ -22,6 +22,6 @@ void _puts(char *str)
  */
 int main(void)
 {
-    _puts("\"Programming is like building a multilingual puzzle");
-    return (0);
+	_puts("\"Programming is like building a multilingual puzzle");
+	return (0);
 }
